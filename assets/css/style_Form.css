@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Serif:wght@300 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IBM Plex Serif sans-serif;
+    
+}
+
+body{
+    color: white;
+    background-color: #191b33;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+ }
+ 
+ a {
+     color: white;
+ }
+
+ section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ }
+
+ section h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+ }
+
+ Section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+
+form label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+ footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    filter: contrast(50%);
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.tuti {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: #5BBE42;
+}

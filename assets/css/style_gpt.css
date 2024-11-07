@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+}
