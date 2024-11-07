@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style_Form.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="tuti">
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Sobre mim</a>
+            </li>
+            <li>
+                <a href="project.html">Projetos</a>
+            </li>
+            <li>
+                <a href="contact.html">Contato</a>
+            </li>
+            <li>
+                <a href="Loja.html">Loja</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="3ee5dec9-53b0-475d-a050-3f2f1a6b7fe3"> <!--Obrigatorio-->
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Digite seu email" autocomplete="off">
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obg.html">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/JonathanTbnDev" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/github.svg">
+        <p>Github</p>
+        </a>
+        <a href="https://www.instagram.com/jonathan.rosa2023/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/instagram.svg">
+            <p>instagram</p>
+        </a>
+        <a href="https://fb.com/jonathan.alves.31/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/Facebook.svg">
+        <p>Facebook</p>
+        </a>
+        
+        <a href="https://api.whatsapp.com/send?phone=5564933001671" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/WhatsApp.svg">
+        <p>Atendimento</p>
+        </a>
+    </footer>
+    </div>
+</body>
+</html>
+
